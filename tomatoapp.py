@@ -70,7 +70,10 @@ a:hover,  a:active {
 </style>
 
 <div class="footer">
-<p align="center"> <a href="https://github.com/ilegnaa">"In the fields of tomorrow, deep learning becomes the guardian of tomato plants, distinguishing health from affliction for a thriving harvest.😂" </a></p>
+<p align="center"> <a href="https://github.com/ilegnaa">
+'''In the fields of tomorrow, 
+ deep learning becomes the guardian of tomato plants, 
+ distinguishing health from affliction for a thriving harvest.😂''' </a></p>
 </div>
         """
 

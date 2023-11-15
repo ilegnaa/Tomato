@@ -73,8 +73,7 @@ a:hover,  a:active {
 <p align="center"> 
 <a href="https://github.com/ilegnaa">
 "In the fields of tomorrow, 
- deep learning becomes the guardian of tomato plants, 
- distinguishing health from affliction for a thriving harvest.😂"
+ deep learning becomes the guardian of tomato plants.😂"
  </a>
  </p>
 </div>

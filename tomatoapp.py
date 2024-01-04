@@ -38,8 +38,7 @@ def predict_class(image) :
     test_image = keras.preprocessing.image.img_to_array(test_image)
     test_image /= 255.0
     test_image = np.expand_dims(test_image, axis = 0)
-    class_name = ['Tomato__Early_blight', 'Tomato__Late_blight', 'Tomato__healthy']
-
+    class_name = ['Tomato_Bacterial_spot', 'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_Leaf_Mold', 'Tomato_Septoria_leaf_spot', 'Tomato_Spider_mites_Two_spotted_spider_mite', 'Tomato__Target_Spot', 'Tomato__Tomato_YellowLeaf__Curl_Virus', 'Tomato__Tomato_mosaic_virus', 'Tomato_healthy']
     prediction = model.predict(test_image)
     confidence = round(100 * (np.max(prediction[0])), 2)
     final_pred = class_name[np.argmax(prediction)]
